@@ -2,3 +2,6 @@
 *.pdf
 Blink2/Debug/**
 Blink2/Drivers/**
+Blink3/Debug/**
+Blink3/Drivers/**
+/.metadata/
