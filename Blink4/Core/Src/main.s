@@ -2,6 +2,11 @@
 
 	Test blink
 
+		- Enable clock for PortC
+		- Set type for PortC PIN 13 to output
+		- Toggle pin with delay in 655350 cycles
+
+
 
 */
 
@@ -65,5 +70,5 @@ delay:
 	b delay
 
 exit:
-	b onoff
+vi 	b onoff
 
