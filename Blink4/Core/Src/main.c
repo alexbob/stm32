@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "PCF8574_LCD.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -31,7 +31,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define AHT10_ADDRESS (0x38 << 1) // 0b11100000; Adress[7-bit]Wite/Read[1-bit]
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -40,55 +39,20 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
- I2C_HandleTypeDef hi2c1;
-
-TIM_HandleTypeDef htim10;
 
 /* USER CODE BEGIN PV */
-uint8_t 	T_100ms = 255;
-
-float hundreds;
-float tens;
-float ones;
-
-float temperature;
-#define TEMP		1
-#define HUMIDITY 	0
-// uint8_t AHT10_Switcher = 255;
-
-char p[6] = {0,0,0,0,0,0};
-
-
 
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-static void MX_TIM10_Init(void);
-static void MX_I2C1_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-//void HAL_TIM_PeriodElapsedCallback( TIM_HandleTypeDef *htim )
-//{
-//	if (htim->Instance == TIM10) {
-//	/* Set every 100ms */
-//	T_100ms = 255;
-// }
-//}
-
-//void HAL_I2C_MasterTxCpltCallback(I2C_HandleTypeDef *hi2c) {
-//
-////	I2C_TypeDef *a;
-////	a = hi2c->Instance;
-//
-//
-//	AHT10_Switcher = ~AHT10_Switcher;
-//}
 
 /* USER CODE END 0 */
 
@@ -120,42 +84,18 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_TIM10_Init();
-  MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 
-  LCD_Init ( hi2c1 );
-  LCD_Clear ( hi2c1 );
-  LCD_Put_Cur ( 0, 0, hi2c1 );
-  LCD_Send_String ( "TEMP: ", hi2c1 );
-
-  HAL_TIM_Base_Start_IT ( &htim10 );
   /* USER CODE END 2 */
-
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	while (1) {
-//		if (AHT10_Switcher) {
-			temperature = ATH10_Get_Temperature(hi2c1, AHT10_ADDRESS, 1);
-
-			_float_to_char(temperature, p);
-
-			LCD_Put_Cur (0, 7, hi2c1);
-			LCD_Send_String (p, hi2c1);
-//			LCD_Send_Data((ones | 0x30), hi2c1);
-//			LCD_Put_Cur(0, 6, hi2c1);
-//			LCD_Send_Data((tens | 0x30), hi2c1);
-//
-//			HAL_Delay(1000);
-			T_100ms = 0;
-//		}
-
-	}
+  while (1)
+  {
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
+  }
   /* USER CODE END 3 */
 }
 
@@ -201,71 +141,6 @@ void SystemClock_Config(void)
 }
 
 /**
-  * @brief I2C1 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_I2C1_Init(void)
-{
-
-  /* USER CODE BEGIN I2C1_Init 0 */
-
-  /* USER CODE END I2C1_Init 0 */
-
-  /* USER CODE BEGIN I2C1_Init 1 */
-
-  /* USER CODE END I2C1_Init 1 */
-  hi2c1.Instance = I2C1;
-  hi2c1.Init.ClockSpeed = 100000;
-  hi2c1.Init.DutyCycle = I2C_DUTYCYCLE_2;
-  hi2c1.Init.OwnAddress1 = 0;
-  hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
-  hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
-  hi2c1.Init.OwnAddress2 = 0;
-  hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
-  hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
-  if (HAL_I2C_Init(&hi2c1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN I2C1_Init 2 */
-
-  /* USER CODE END I2C1_Init 2 */
-
-}
-
-/**
-  * @brief TIM10 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_TIM10_Init(void)
-{
-
-  /* USER CODE BEGIN TIM10_Init 0 */
-
-  /* USER CODE END TIM10_Init 0 */
-
-  /* USER CODE BEGIN TIM10_Init 1 */
-
-  /* USER CODE END TIM10_Init 1 */
-  htim10.Instance = TIM10;
-  htim10.Init.Prescaler = 80-1;
-  htim10.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim10.Init.Period = 65535;
-  htim10.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim10.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
-  if (HAL_TIM_Base_Init(&htim10) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN TIM10_Init 2 */
-
-  /* USER CODE END TIM10_Init 2 */
-
-}
-
-/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -277,7 +152,6 @@ static void MX_GPIO_Init(void)
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
-  __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);

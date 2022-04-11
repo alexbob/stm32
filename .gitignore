@@ -4,4 +4,7 @@ Blink2/Debug/**
 Blink2/Drivers/**
 Blink3/Debug/**
 Blink3/Drivers/**
+Blink4/Debug/**
+Blink4/Drivers/**
+Blink4/Release/**
 /.metadata/

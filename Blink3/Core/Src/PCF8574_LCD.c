@@ -13,6 +13,7 @@
 // Init LCD controller
 void LCD_Init (I2C_HandleTypeDef i2c)
 {
+	HAL_Delay(1000);
 	// 4 bit initialisation
 	HAL_Delay(50);  // wait for >40ms
 	LCD_Send_Cmd (0x30, i2c);
