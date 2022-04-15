@@ -1,13 +1,10 @@
-/*
-
-	Test blink
-
-		- Enable clock for PortC
-		- Set type for PortC PIN 13 to output
-		- Toggle pin with delay in 655350 cycles
-
-
-
+/**
+ *
+ *	Test blink
+ *
+ *		- Enable clock for PortC
+ *		- Set type for PortC PIN 13 to output
+ *		- Toggle pin with delay in 655350 cycles
 */
 
 
@@ -20,55 +17,53 @@
 .type	main, %function
 
 .data
-	RCC_BASE: 		.word 	0x40023800  // RCC start address
-	GPIOC_BASE:		.word	0x40020800
+	RCC_BASE: 		.word 	0x40023800  	// RCC start address
+	GPIOC_BASE:		.word	0x40020800	// PORC C Base addr
+	ModeMask:		.word 	0x04000000
+	ClockMask:		.word	0x00000004
+	Pin13Mask:		.word	0x00002000
+
 
 .text
 
 main:
 	.fnstart
 
-	// calculate reg enable location for port C
 
-	ldr r0, =RCC_BASE
-	ldr r1, [r0]
-	add r1, #0x30			// offset for RCC_APB1ENR register
+	/* enable Clock for port C */
 
-	ldr r0, [r1]			// load RCC reg values
-	orr r0, r0, 0x4			// bit offset
-	str r0, [r1]			// enable clock for port c
+	ldr	r0, =RCC_BASE			//  base mem address
+	mov 	r1, #0x30			//  register offset
+	movw	r2, #:lower16:ClockMask
+	movt	r2, #:upper16:ClockMask
+	bl 	_setreg
 
+	/* set output type for pin(s) */
 
-	// set reg output type
+	ldr 	r0, =GPIOC_BASE			// base mem for port C
+	mov	r1, #0x0			// register offset
+	movw	r2, #:lower16:ModeMask		// bitmask
+	movt	r2, #:upper16:ModeMask
+	bl 	_setreg
 
-	ldr r0, =GPIOC_BASE
-	ldr r1, [r0]
-	add r1, 0x0				// register offset for output type
-
-	ldr r0, [r1]
-	orr r0, r0, 0x04000000	// Port C pin 13 output mode
-	str r0, [r1]
-
-	b onoff
-
-	// on / off
-
-
+	/* toggle */
 onoff:
-	ldr r0, =GPIOC_BASE
-	ldr r1, [r0]
-	add r1, 0x14			// offset
+	ldr 	r0, =GPIOC_BASE 		// base mem addr for PORT C
+	mov	r1, #0x14			// bit to toggle offset
+	movw	r2, #:lower16:Pin13Mask
+	movt	r2, #:upper16:Pin13Mask
+	bl	_toggle
 
-	ldr r0, [r1]
-	eor r0, r0, 0x000002000
-	str r0, [r1]
-
-	ldr r0, =655350
+	/* delay  */
+	ldr 	r0, =655350
 delay:
-	sub r0, r0, 1
-	cbz r0, exit
-	b delay
+	sub 	r0, 1
+	cbz 	r0, exit
+	b 	delay
 
 exit:
-vi 	b onoff
+ 	b onoff
+
+
+.end
 
