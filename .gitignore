@@ -7,4 +7,6 @@ Blink3/Drivers/**
 Blink4/Debug/**
 Blink4/Drivers/**
 Blink4/Release/**
+TFT_FSMC/Debug/**
+TFT_FSMC/Drivers/**
 /.metadata/
