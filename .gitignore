@@ -1,5 +1,6 @@
 .DS_Store
 *.pdf
+*.svd
 Blink2/Debug/**
 Blink2/Drivers/**
 Blink3/Debug/**
@@ -11,4 +12,12 @@ TFT_FSMC/Debug/**
 TFT_FSMC/Drivers/**
 TFT_FSMC_USART/Debug/**
 TFT_FSMC_USART/Drivers/**
+TFT_FSMC_USART_EPROM_SD/Debug/**
+TFT_FSMC_USART_EPROM_SD/Drivers/**
+EEPROM/Debug/**
+EEPROM/Drivers/**
+EEPROM/.**
+I2C/Debug/**
+I2C/Drivers/**
+I2C/.**
 /.metadata/
