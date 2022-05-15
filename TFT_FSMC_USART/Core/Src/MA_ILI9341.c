@@ -387,11 +387,20 @@ void ILI9341_fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_
 //11. Text printing functions
 void ILI9341_drawChar(int16_t x, int16_t y, unsigned char c, uint16_t color, uint16_t bg, uint8_t size)
 {
-	if((x >= ILI9341_WIDTH)            || // Clip right
-     (y >= ILI9341_HEIGHT)           || // Clip bottom
-     ((x + 6 * size - 1) < 0) || // Clip left
-     ((y + 8 * size - 1) < 0))   // Clip top
-    return;
+
+  if((rotationNum == 1) || (rotationNum == 3)) {
+    if((x >= ILI9341_WIDTH)            || // Clip right
+      (y >= ILI9341_HEIGHT)           || // Clip bottom
+      ((x + 6 * size - 1) < 0) || // Clip left
+      ((y + 8 * size - 1) < 0))   // Clip top
+      return;
+  } else {
+      if((x >= ILI9341_HEIGHT)            || // Clip right
+      (y >= ILI9341_WIDTH)           || // Clip bottom
+      ((x + 6 * size - 1) < 0) || // Clip left
+      ((y + 8 * size - 1) < 0))   // Clip top
+      return;  
+  }
 
   if(!_cp437 && (c >= 176)) c++; // Handle 'classic' charset behavior
 

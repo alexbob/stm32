@@ -1,0 +1,2589 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C Debug --no-print-directory
+ 
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sun May 15 00:33:59 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART/Debug
+# makefile (from `Makefile', line 48)
+SHELL = /bin/sh
+# makefile (from `Makefile', line 54)
+RM = /usr/local/Cellar/cmake/3.23.1/bin/cmake -E rm -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 63)
+CMAKE_BINARY_DIR = /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART/Debug
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCodeInsiders
+# makefile (from `Makefile', line 35)
+MAKESILENT = -s
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/y2/5lgv68mj12x31w6dpbt1486c0000gn/T/vscode-ipc-972c9d21-8aff-4b5c-8f07-b57103e9e935.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/local/bin:/opt/local/sbin:/Applications/ARM/bin/:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+VSCODE_LOG_STACK = true
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.bAUgudhoRc/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/alexbobkov
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/alexbobkov/Library/Application Support/Code - Insiders/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+LOGNAME = alexbobkov
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from `Makefile', line 57)
+EQUALS = =
+# environment
+ZSH = /Users/alexbobkov/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = alexbobkov
+# makefile
+.DEFAULT_GOAL := default_target
+# makefile (from `Makefile', line 60)
+CMAKE_SOURCE_DIR = /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/y2/5lgv68mj12x31w6dpbt1486c0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/alexbobkov/Library/Application Support/Code - Insiders/1.67.0-insider-main.sock
+# makefile
+MAKEFLAGS =  --no-print-directory -sRrqp
+# environment
+MFLAGS = - --no-print-directory -sRrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.14077676.14077682
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 51)
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.23.1/bin/cmake
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 1
+# environment
+LANG = C
+# environment
+VSCODE_PID = 63436
+# variable set hash-table stats:
+# Load=71/1024=7%, Rehash=0, Collisions=4/106=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# SCCS: could not be stat'd.
+# . (device 16777222, inode 14374974): 10 files, no impossibilities.
+# RCS: could not be stat'd.
+
+# 10 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%: %,v
+
+%: RCS/%
+
+%: RCS/%,v
+
+%: SCCS/s.%
+
+%: s.%
+
+%.hpux_make_needs_suffix_list:
+
+# 6 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 562):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 482):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+	
+
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/retarget.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 218):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/retarget.c.i
+	
+
+Core/Src/system_stm32f4xx.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 306):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/system_stm32f4xx.c.obj
+	
+
+Core/Src/retarget.s: Core/Src/retarget.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Startup/startup_stm32f407vetx.s.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 330):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Startup/startup_stm32f407vetx.s.obj
+	
+ 
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 546):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 410):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+	
+
+Core/Src/AT24Cxxx.i: Core/Src/AT24Cxxx.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 778):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+	
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 70):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/Cellar/cmake/3.23.1/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 354):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/retarget.obj: Core/Src/retarget.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 666):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+	
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  commands to execute (from `Makefile', line 90):
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART/Debug/CMakeFiles /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART/Debug//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART/Debug/CMakeFiles 0
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 530):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+	
+
+Core/Src/stm32f4xx_it.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 266):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/stm32f4xx_it.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/main.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 202):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/main.c.s
+	
+
+Core/Src/stm32f4xx_it.s: Core/Src/stm32f4xx_it.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend TFT_FSMC_USART-f407vet6 TFT_FSMC_USART-f407vet6/fast Core/Src/AT24Cxxx.obj Core/Src/AT24Cxxx.c.obj Core/Src/AT24Cxxx.i Core/Src/AT24Cxxx.c.i Core/Src/AT24Cxxx.s Core/Src/AT24Cxxx.c.s Core/Src/MA_ILI9341.obj Core/Src/MA_ILI9341.c.obj Core/Src/MA_ILI9341.i Core/Src/MA_ILI9341.c.i Core/Src/MA_ILI9341.s Core/Src/MA_ILI9341.c.s Core/Src/main.obj Core/Src/main.c.obj Core/Src/main.i Core/Src/main.c.i Core/Src/main.s Core/Src/main.c.s Core/Src/retarget.obj Core/Src/retarget.c.obj Core/Src/retarget.i Core/Src/retarget.c.i Core/Src/retarget.s Core/Src/retarget.c.s Core/Src/stm32f4xx_hal_msp.obj Core/Src/stm32f4xx_hal_msp.c.obj Core/Src/stm32f4xx_hal_msp.i Core/Src/stm32f4xx_hal_msp.c.i Core/Src/stm32f4xx_hal_msp.s Core/Src/stm32f4xx_hal_msp.c.s Core/Src/stm32f4xx_it.obj Core/Src/stm32f4xx_it.c.obj Core/Src/stm32f4xx_it.i Core/Src/stm32f4xx_it.c.i Core/Src/stm32f4xx_it.s Core/Src/stm32f4xx_it.c.s Core/Src/sysmem.obj Core/Src/sysmem.c.obj Core/Src/sysmem.i Core/Src/sysmem.c.i Core/Src/sysmem.s Core/Src/sysmem.c.s Core/Src/system_stm32f4xx.obj Core/Src/system_stm32f4xx.c.obj Core/Src/system_stm32f4xx.i Core/Src/system_stm32f4xx.c.i Core/Src/system_stm32f4xx.s Core/Src/system_stm32f4xx.c.s Core/Startup/startup_stm32f407vetx.obj Core/Startup/startup_stm32f407vetx.s.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s Drivers/STM32F4xx_HAL_Driver/Sr 
+c/stm32f4xx_hal_cortex.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.s Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 338):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 538):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 450):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj:
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 650):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/MA_ILI9341.i: Core/Src/MA_ILI9341.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 522):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 730):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
+	
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 111):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	
+
+Core/Src/stm32f4xx_it.obj: Core/Src/stm32f4xx_it.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 586):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+TFT_FSMC_USART-f407vet6: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 125):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TFT_FSMC_USART-f407vet6
+	
+
+Core/Src/system_stm32f4xx.i: Core/Src/system_stm32f4xx.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 434):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 506):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 714):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+ 
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 610):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
+	
+
+Core/Src/sysmem.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 290):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/sysmem.c.i
+	
+
+Core/Src/stm32f4xx_hal_msp.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 250):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/stm32f4xx_hal_msp.c.s
+	
+
+.SUFFIXES: .hpux_make_needs_suffix_list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/sysmem.s: Core/Src/sysmem.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 21:56:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 802):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 690):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+	
+
+Core/Src/stm32f4xx_hal_msp.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 234):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/sysmem.obj: Core/Src/sysmem.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 466):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 570):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/retarget.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 226):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/retarget.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 674):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+	
+
+Core/Src/main.i: Core/Src/main.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 394):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 754):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/AT24Cxxx.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 146):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/AT24Cxxx.c.i
+	
+
+Core/Src/AT24Cxxx.s: Core/Src/AT24Cxxx.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+cmake_check_build_system:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cmake_check_build_system
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/14=21%
+#  commands to execute (from `Makefile', line 918):
+	$(CMAKE_COMMAND) -P /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART/Debug/CMakeFiles/VerifyGlobs.cmake
+ 
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 786):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 554):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/retarget.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 210):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/retarget.c.obj
+	
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 815):
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... TFT_FSMC_USART-f407vet6"
+	@echo "... Core/Src/AT24Cxxx.obj"
+	@echo "... Core/Src/AT24Cxxx.i"
+	@echo "... Core/Src/AT24Cxxx.s"
+	@echo "... Core/Src/MA_ILI9341.obj"
+	@echo "... Core/Src/MA_ILI9341.i"
+	@echo "... Core/Src/MA_ILI9341.s"
+	@echo "... Core/Src/main.obj"
+	@echo "... Core/Src/main.i"
+	@echo "... Core/Src/main.s"
+	@echo "... Core/Src/retarget.obj"
+	@echo "... Core/Src/retarget.i"
+	@echo "... Core/Src/retarget.s"
+	@echo "... Core/Src/stm32f4xx_hal_msp.obj"
+	@echo "... Core/Src/stm32f4xx_hal_msp.i"
+	@echo "... Core/Src/stm32f4xx_hal_msp.s"
+	@echo "... Core/Src/stm32f4xx_it.obj"
+	@echo "... Core/Src/stm32f4xx_it.i"
+	@echo "... Core/Src/stm32f4xx_it.s"
+	@echo "... Core/Src/sysmem.obj"
+	@echo "... Core/Src/sysmem.i"
+	@echo "... Core/Src/sysmem.s"
+	@echo "... Core/Src/system_stm32f4xx.obj"
+	@echo "... Core/Src/system_stm32f4xx.i"
+	@echo "... Core/Src/system_stm32f4xx.s"
+	@echo "... Core/Startup/startup_stm32f407vetx.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj"
+ 
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.s"
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 634):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/stm32f4xx_it.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 274):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/stm32f4xx_it.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 106):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 770):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 698):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+	
+
+Core/Src/stm32f4xx_hal_msp.i: Core/Src/stm32f4xx_hal_msp.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 370):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
+	
+
+Core/Src/AT24Cxxx.obj: Core/Src/AT24Cxxx.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 116):
+	$(CMAKE_COMMAND) -P /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART/Debug/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/MA_ILI9341.s: Core/Src/MA_ILI9341.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/stm32f4xx_it.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 258):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/stm32f4xx_it.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 738):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+ 
+#  commands to execute (from `Makefile', line 490):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
+	
+
+Core/Src/system_stm32f4xx.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 314):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/system_stm32f4xx.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 594):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+	
+
+Core/Src/system_stm32f4xx.s: Core/Src/system_stm32f4xx.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 706):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/MA_ILI9341.obj: Core/Src/MA_ILI9341.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 418):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 722):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 618):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
+	
+
+Core/Src/sysmem.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 298):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/sysmem.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 578):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+	
+
+Core/Src/retarget.i: Core/Src/retarget.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/system_stm32f4xx.obj: Core/Src/system_stm32f4xx.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/main.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 186):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/main.c.obj
+	
+
+Core/Startup/startup_stm32f407vetx.obj: Core/Startup/startup_stm32f407vetx.s.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 97):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 602):
+ 
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+	
+
+Core/Src/sysmem.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 282):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/sysmem.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 346):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 810):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s
+	
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 474):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 658):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/main.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 194):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/main.c.i
+	
+
+Core/Src/stm32f4xx_it.i: Core/Src/stm32f4xx_it.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/main.s: Core/Src/main.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 402):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 794):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 762):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/AT24Cxxx.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 154):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/AT24Cxxx.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 458):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i:
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 442):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 514):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/main.obj: Core/Src/main.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 386):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 746):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 642):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
+	
+
+Core/Src/AT24Cxxx.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 138):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/AT24Cxxx.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.hpux_make_needs_suffix_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/stm32f4xx_hal_msp.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 242):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/stm32f4xx_hal_msp.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/sysmem.i: Core/Src/sysmem.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/stm32f4xx_hal_msp.s: Core/Src/stm32f4xx_hal_msp.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 378):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+	
+
+Core/Src/MA_ILI9341.c.s:
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 178):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/MA_ILI9341.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 626):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 498):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
+	
+
+Core/Src/system_stm32f4xx.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 322):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/system_stm32f4xx.c.s
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 682):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 362):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+	
+
+Core/Src/MA_ILI9341.c.obj:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 162):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/MA_ILI9341.c.obj
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+TFT_FSMC_USART-f407vet6/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 130):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 426):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
+	
+
+Core/Src/MA_ILI9341.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 170):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFT_FSMC_USART-f407vet6.dir/build.make CMakeFiles/TFT_FSMC_USART-f407vet6.dir/Core/Src/MA_ILI9341.c.i
+	
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 80):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/local/Cellar/cmake/3.23.1/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	
+
+# files hash-table stats:
+# Load=193/1024=19%, Rehash=0, Collisions=44/672=7%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+ 
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun May 15 00:33:59 2022
+
+ 
+make: *** [build] Error 1
+
+
+# Make data base, printed on Sun May 15 00:33:59 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCodeInsiders
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/y2/5lgv68mj12x31w6dpbt1486c0000gn/T/vscode-ipc-972c9d21-8aff-4b5c-8f07-b57103e9e935.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/local/bin:/opt/local/sbin:/Applications/ARM/bin/:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+VSCODE_LOG_STACK = true
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.bAUgudhoRc/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/alexbobkov/Develop/stm32/TFT_FSMC_USART
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/alexbobkov
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/alexbobkov/Library/Application Support/Code - Insiders/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+LOGNAME = alexbobkov
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/alexbobkov/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 21)
+SRCS := ./Drivers/CMSIS/Include/core_cm7.h ./Drivers/CMSIS/Include/tz_context.h ./Drivers/CMSIS/Include/core_cm3.h ./Drivers/CMSIS/Include/cmsis_compiler.h ./Drivers/CMSIS/Include/cmsis_armclang.h ./Drivers/CMSIS/Include/mpu_armv7.h ./Drivers/CMSIS/Include/cmsis_armcc.h ./Drivers/CMSIS/Include/core_cm4.h ./Drivers/CMSIS/Include/core_cm0.h ./Drivers/CMSIS/Include/cmsis_iccarm.h ./Drivers/CMSIS/Include/core_armv8mml.h ./Drivers/CMSIS/Include/core_sc000.h ./Drivers/CMSIS/Include/core_cm1.h ./Drivers/CMSIS/Include/mpu_armv8.h ./Drivers/CMSIS/Include/core_sc300.h ./Drivers/CMSIS/Include/cmsis_gcc.h ./Drivers/CMSIS/Include/cmsis_version.h ./Drivers/CMSIS/Include/core_cm23.h ./Drivers/CMSIS/Include/core_cm33.h ./Drivers/CMSIS/Include/core_cm0plus.h ./Drivers/CMSIS/Include/core_armv8mbl.h ./Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h ./Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h ./Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h ./Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h ./Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c ./Core/Inc/main.h ./Core/Inc/MA_ILI9341.h ./Core/Inc/retarget.h ./Core/Inc/stm32f4xx_it.h ./Core/Inc/stm32f4xx_hal_conf.h ./Core/Inc/AT24Cxxx_config.h ./Core/Inc/AT24Cxxx.h ./Core/Src/AT24Cxxx.c ./Core/Src/main.c ./Core/Src/sysmem.c ./Core/Src/system_stm32f4xx.c ./Core/Src/stm32f4xx_hal_msp.c ./Core/Src/stm32f4xx_it.c ./Core/Src/retarget.c ./Core/Src/MA_ILI9341.c ./Debug/CMakeFiles/3.23.1/CompilerIdC/CMakeCCompilerId.c ./Debug/CMakeFiles/3.23.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 3)
+BUILD_DIR := Debug
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = alexbobkov
+# makefile
+.DEFAULT_GOAL := all
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/y2/5lgv68mj12x31w6dpbt1486c0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/alexbobkov/Library/Application Support/Code - Insiders/1.67.0-insider-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.14077676.14077682
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# makefile (from `Makefile', line 4)
+BUILD_TYPE = Debug
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 63436
+# variable set hash-table stats:
+# Load=69/1024=7%, Rehash=0, Collisions=1/104=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777222, inode 12342224): 24 files, no impossibilities.
+
+# 24 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.format: %
+#  commands to execute (from `Makefile', line 23):
+	clang-format -i $<
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_sc300.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/retarget.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/cmsis_armclang.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_cm23.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+Core/Inc/AT24Cxxx_config.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/tz_context.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/cmsis_version.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all build cmake clean format
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_cm3.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/cmsis_gcc.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+format: Drivers/CMSIS/Include/core_cm7.h.format Drivers/CMSIS/Include/tz_context.h.format Drivers/CMSIS/Include/core_cm3.h.format Drivers/CMSIS/Include/cmsis_compiler.h.format Drivers/CMSIS/Include/cmsis_armclang.h.format Drivers/CMSIS/Include/mpu_armv7.h.format Drivers/CMSIS/Include/cmsis_armcc.h.format Drivers/CMSIS/Include/core_cm4.h.format Drivers/CMSIS/Include/core_cm0.h.format Drivers/CMSIS/Include/cmsis_iccarm.h.format Drivers/CMSIS/Include/core_armv8mml.h.format Drivers/CMSIS/Include/core_sc000.h.format Drivers/CMSIS/Include/core_cm1.h.format Drivers/CMSIS/Include/mpu_armv8.h.format Drivers/CMSIS/Include/core_sc300.h.format Drivers/CMSIS/Include/cmsis_gcc.h.format Drivers/CMSIS/Include/cmsis_version.h.format Drivers/CMSIS/Include/core_cm23.h.format Drivers/CMSIS/Include/core_cm33.h.format Drivers/CMSIS/Include/core_cm0plus.h.format Drivers/CMSIS/Include/core_armv8mbl.h.format Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h.format Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h.format Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h.format Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h.format Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.format Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.format Core/Inc/main.h.format Core/Inc/MA_ILI9341.h.format Core/Inc/retarget.h.format Core/Inc/stm32f4xx_it.h.format Core/Inc/stm32f4xx_hal_conf.h.format Core/Inc/AT24Cxxx_config.h.format Core/Inc/AT24Cxxx.h.format Core/Src/AT24Cxxx.c.format Core/Src/main.c.format Core/Src/sysmem.c.format Core/Src/system_stm32f4xx.c.format Core/Src/stm32f4xx_hal_msp.c.format Core/Src/stm32f4xx_it.c.format Core/Src/retarget.c.format Core/Src/MA_ILI9341.c.format Debug/CMakeFiles/3.23.1/CompilerIdC/CMakeCCompilerId.c.format Debug/CMakeFiles/3.23.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.format
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-11 21:38:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/sysmem.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Debug/CMakeFiles/3.23.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/MA_ILI9341.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/cmsis_compiler.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build: cmake
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := cmake
+# automatic
+# | := 
+# automatic
+# < := cmake
+# automatic
+# ^ := cmake
+# automatic
+# ? := cmake
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/13=15%
+#  commands to execute (from `Makefile', line 19):
+	$(MAKE) -C ${BUILD_DIR} --no-print-directory
+	
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_sc000.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+# Not a target:
+Core/Inc/AT24Cxxx.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/cmsis_iccarm.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_cm0.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_armv8mml.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Debug/CMakeFiles/3.23.1/CompilerIdC/CMakeCCompilerId.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/AT24Cxxx.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Debug/Makefile:
+#  Implicit rule search has not been done.
+#  Last modified 2022-05-14 21:56:19
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 9):
+	cmake \
+	-B${BUILD_DIR} \
+	-DCMAKE_BUILD_TYPE=${BUILD_TYPE} \
+	-DCMAKE_TOOLCHAIN_FILE=gcc-arm-none-eabi.cmake \
+	-DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
+	-DDUMP_ASM=ON
+	
+
+# Not a target:
+Drivers/CMSIS/Include/core_cm1.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Inc/MA_ILI9341.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Inc/stm32f4xx_hal_conf.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_cm33.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/system_stm32f4xx.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cmake: Debug/Makefile
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/CMSIS/Include/mpu_armv8.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 27):
+	rm -rf $(BUILD_DIR)
+	
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Inc/main.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_cm0plus.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Inc/stm32f4xx_it.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/main.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_armv8mbl.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.format:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/cmsis_armcc.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_cm7.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/mpu_armv7.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/stm32f4xx_it.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Src/stm32f4xx_hal_msp.c.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Core/Inc/retarget.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Drivers/CMSIS/Include/core_cm4.h.format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=94/1024=9%, Rehash=0, Collisions=9/201=4%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun May 15 00:33:59 2022
+
+ 

@@ -18,8 +18,9 @@
 */
 
 #include "EEPROM.h"
-#include "math.h"
+#include <math.h>
 #include "string.h"
+#include <stm32f4xx_hal_def.h>
 
 // Define the I2C
 extern I2C_HandleTypeDef hi2c1;
@@ -176,18 +177,21 @@ void EEPROM_Read (uint16_t page, uint16_t offset, uint8_t *data, uint16_t size)
  * @page is the number of page to erase
  * In order to erase multiple pages, just use this function in the for loop
  */
-void EEPROM_PageErase (uint16_t page)
+HAL_StatusTypeDef EEPROM_PageErase (uint16_t page)
 {
+	HAL_StatusTypeDef res;
 	// calculate the memory address based on the page number
 	int paddrposition = log(PAGE_SIZE)/log(2);
-	uint16_t MemAddress = page<<paddrposition;
+	uint16_t MemAddress = page << paddrposition;
 
 	// create a buffer to store the reset values
 	uint8_t data[PAGE_SIZE];
 	memset(data,0xff,PAGE_SIZE);
 
 	// write the data to the EEPROM
-	HAL_I2C_Mem_Write(EEPROM_I2C, EEPROM_ADDR, MemAddress, 2, data, PAGE_SIZE, 1000);
+	res = HAL_I2C_Mem_Write(EEPROM_I2C, EEPROM_ADDR, MemAddress, 2, data, PAGE_SIZE - 1, 100);
 
-	HAL_Delay (5);  // write cycle delay
+                                                                                                                                                           	HAL_Delay (5);  // write cycle delay
+
+	return(res);
 }

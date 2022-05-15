@@ -23,6 +23,8 @@
 /* USER CODE BEGIN Includes */
 #include "EEPROM.h"
 #include <stdint.h>
+#include <string.h>
+#include <stm32f4xx_hal_def.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -57,6 +59,9 @@ static void MX_I2C1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 #define DEV_ADDR 0xA0
+
+HAL_StatusTypeDef status;
+
 uint8_t dataw1[] = "hello world from EEPROM";
 uint8_t dataw2[] = "This is the second string from EEPROM";
 float dataw3 = 1234.5678;
@@ -97,12 +102,13 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-//  for (int i = 0; i < 512; i++)
-//    {
-//      EEPROM_PageErase (i);
-//    }
 
- // HAL_I2C_Mem_Read(&hi2c1, 0xA0, (3<<6), 2, datar1, 64, 100 );
+  // HAL_Delay(1000);
+  // for (int i = 0; i < 512; i++)
+  //  {
+  //    EEPROM_PageErase (i);
+  //  }
+
 
  // EEPROM_Write (3, 0, dataw1, strlen((char*) dataw1));
 
@@ -117,23 +123,48 @@ int main(void)
 //  datar3 = EEPROM_Read_NUM (6, 0);
 
       // Erase
-      for(int i = 0; i < 64; i++) {
-        datar1[i] = 0xFF;
-      }
-      HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0, 2, datar1, 64, 100);
+      // for(int i = 0; i < 64; i++) {
+      //   datar1[i] = 0xFF;
+      // }
+      memset(datar1, 0xFF, sizeof(datar1));
+
+      status = HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0, I2C_MEMADD_SIZE_16BIT, datar1, 64, 100);
       HAL_Delay(10);
 
       // writting buffer
-      HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0, 2, dataw1, sizeof(dataw1), 100);
+      status = HAL_I2C_Mem_Write(&hi2c1, 0xA0, 0, I2C_MEMADD_SIZE_16BIT, dataw1, sizeof(dataw1), 100);
       HAL_Delay(10);
 
-      for(uint8_t i = 0; i < sizeof(dataw1); i++ ) {
-        dataw1[i] = 0xFF;
-      }
+      // for(uint8_t i = 0; i < sizeof(dataw1); i++ ) {
+      //   dataw1[i] = 0xFF;
+      // }
+
+      memset(dataw1, 0xff, sizeof(dataw1));
 
       // read buffer
-      HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0, 2, dataw1, sizeof(dataw1), 100 );
+      status = HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0, I2C_MEMADD_SIZE_16BIT, dataw1, sizeof(dataw1), 100 );
       HAL_Delay(10);
+
+
+    // second page
+
+      status = HAL_I2C_Mem_Write(&hi2c1, 0xA0, 64, I2C_MEMADD_SIZE_16BIT, dataw2, sizeof(dataw2), 100);
+      HAL_Delay(10);
+
+      // for(uint8_t i = 0; i < sizeof(dataw1); i++ ) {
+      //   dataw1[i] = 0xFF;
+      // }
+      memset(dataw1, 0xff, sizeof(dataw1));
+      memset(dataw2, 0xff, sizeof(dataw2));
+
+      // check first page
+      // read buffer
+      status = HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0, I2C_MEMADD_SIZE_16BIT, dataw1, sizeof(dataw1), 100 );
+      HAL_Delay(10);
+
+      status = HAL_I2C_Mem_Read(&hi2c1, 0xA0, 64, I2C_MEMADD_SIZE_16BIT, dataw2, sizeof(dataw2), 100 );
+      HAL_Delay(10);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */

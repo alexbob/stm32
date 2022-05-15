@@ -84,9 +84,9 @@ int main(void)
   char buf[100];
   uint8_t line = 5;
 
-  uint8_t com_stat;
-  uint8_t my_data_w[21] = "I AM Microcontroller";
-  uint8_t my_data_r[21];
+  HAL_StatusTypeDef com_stat;
+  uint8_t my_data_w[21];
+  uint8_t my_data_r[24];
 
 
   /* USER CODE END 1 */
@@ -164,7 +164,7 @@ int main(void)
 	
 //	ILI9341_printImage(50, 50, 80, 130, myImage, sizeof(myImage));
 //  com_stat = HAL_I2C_Mem_Write2(&hi2c1, 0xA0, 75, I2C_MEMADD_SIZE_16BIT, my_data_w, sizeof(my_data_w), 100);
-  com_stat = HAL_I2C_Mem_Read2(&hi2c1, 0xA0, 75, I2C_MEMADD_SIZE_16BIT, my_data_r, sizeof(my_data_w), 100);
+memset(my_data_r, 0xff, sizeof(my_data_r));
 
   /* USER CODE END 2 */
 
@@ -175,13 +175,17 @@ int main(void)
 //      printf("\r\nYour name: ");
 //      scanf("%s", buf);
 //      printf("\r\nHello, %s!\r\n", buf);
-      ILI9341_printText (my_data_r, 5, line, COLOR_GREEN, COLOR_BLACK, 2);
-      line += 20;
-      if (line > 240) {
-	  ILI9341_Fill (COLOR_BLACK );
-	  line = 5;
-      }
-      HAL_Delay(1000);
+  
+    memset(my_data_r, 0xff, sizeof(my_data_r)); 
+    com_stat = HAL_I2C_Mem_Read(&hi2c1, 0xA0, 0, I2C_MEMADD_SIZE_16BIT, my_data_r, sizeof(my_data_r), 100);
+    printf("\r\nHello, %d!\r\n", com_stat);
+    ILI9341_printText (my_data_r, 5, line, COLOR_GREEN, COLOR_BLACK, 2);
+    line += 20;
+    if (line > 240) {
+	    ILI9341_Fill (COLOR_BLACK );
+	    line = 5;
+    }
+    HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
